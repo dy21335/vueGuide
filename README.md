@@ -69,7 +69,7 @@ new Vue({
 #### template
 
 `template` 就是挂载到页面的模板。
-
+也就是说:`template: '<App/>' `表示用`<app></app>`替换`index.html`里面的`<div id="app"></div>`。
 这里的值是 `<App/>` 组件就是 `components` 属性中的 `App`，也就是通过 `import` 引入的 `App` 这个模板。
 
 
