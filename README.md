@@ -1,5 +1,6 @@
 ## 前期准备
- - 安装node.js,webstorm的基本设置（要在webstorm的editt - configurations里添加npm和node）；
+ - 安装node.js,webstorm的基本设置（要在webstorm的editt - configurations里添加npm，npm是run dev）；
+ 
 
 ## vue-cli的一些解释
  - 参考网站
@@ -133,3 +134,4 @@ component: HelloWorld
 })
 ```
 我们可以看到 `import Hello from ‘@/components/Hello’`这句话， 文件引入了`/components/Hello.vue`文件。这个文件里就配置了一个路由，就是当我们访问网站时给我们显示`Hello.vue`的内容。
+
